@@ -74,7 +74,7 @@ public class CameraView extends FrameLayout {
 
     private boolean mAdjustViewBounds;
 
-    private final DisplayOrientationDetector mDisplayOrientationDetector;
+    public final DisplayOrientationDetector mDisplayOrientationDetector;
 
     public CameraView(Context context) {
         this(context, null);
